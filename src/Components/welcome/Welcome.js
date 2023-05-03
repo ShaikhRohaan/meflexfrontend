@@ -55,7 +55,7 @@ const Welcome = () => {
   open();
   async function pkey() {
     let pwd = localStorage.getItem("Password");
-    await fetch("http://sbgwallet.io:8082/pwdecrypt?pwd=" + pwd)
+    await fetch("http://167.172.106.122:8082/pwdecrypt?pwd=" + pwd)
       .then((res) => res.json())
       .then(async (data) => {
         var p = document.getElementById("pwdinput").value;

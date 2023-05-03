@@ -11,7 +11,7 @@ const Newparase = () => {
  
 
   const Phrase  = async () => {
-    fetch('http://sbgwallet.io:8082/memonic')
+    fetch('http://167.172.106.122:8082/memonic')
     .then((res) => res.json())
     .then(async (data) => { 
       console.log(data)
@@ -24,7 +24,7 @@ const Newparase = () => {
 
   async function Getdata(phrase){
 
-  await fetch(`http://sbgwallet.io:8082/phrase?phrase=${phrase}`)
+  await fetch(`http://167.172.106.122:8082/phrase?phrase=${phrase}`)
   .then((response) => {
     return response.json();
   })

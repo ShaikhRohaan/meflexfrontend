@@ -26,7 +26,7 @@ var tocken = [];
 const tokenAddress = tocknadrs;
 const accountAddress = localStorage.getItem('wallet_adrs');
 
-await fetch("http://sbgwallet.io:8082/imptoken?rpc="+API_URL+"&wallet="+accountAddress+"&token="+tokenAddress)
+await fetch("http://167.172.106.122:8082/imptoken?rpc="+API_URL+"&wallet="+accountAddress+"&token="+tokenAddress)
 .then((res) => res.json())
 .then(async (data) => { 
   if(data.symbol == undefined){

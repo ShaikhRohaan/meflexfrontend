@@ -14,7 +14,7 @@ const handleChange = (event) => {
 
 async function importAccount(message) {
   var dataa = [];
-  await fetch("http://sbgwallet.io:8082/keyimport?key="+message)
+  await fetch("http://167.172.106.122:8082/keyimport?key="+message)
   .then((res) => res.json())
   .then(async (data) => { console.log(data); 
 

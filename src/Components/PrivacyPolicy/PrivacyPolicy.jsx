@@ -53,7 +53,7 @@ function PrivacyPolicy() {
         <h2>Contact Us</h2>
 
         <p>If you have any queries, please contact us at: <br/>
-                <a>Info@sbg.io</a>
+                <a>Info@meflex.io</a>
                 </p>
      </div>
     </div>

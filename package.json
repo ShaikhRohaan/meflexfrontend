@@ -2,7 +2,7 @@
   "name": "metamask",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sbgwallet.io/",
+  "homepage": "https://meflexwallet.io/",
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.7",
     "@metamask/logo": "^3.1.1",
@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "alchemy-sdk": "^2.3.0",
     "assert": "^2.0.0",
+    "axios": "^1.4.0",
     "bcryptjs": "^2.4.3",
     "big-number": "^2.0.0",
     "bip39": "^3.0.4",

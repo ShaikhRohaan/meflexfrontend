@@ -248,7 +248,7 @@ const Inputnewphrase = (props) => {
       accountKey: value.privateKey,
     }]
     localStorage.setItem("multiAccount", JSON.stringify(Key));
-    //  const url = `http://sbgwallet.io:8082/updatedata/${id}`;
+    //  const url = `http://167.172.106.122:8082/updatedata/${id}`;
 
     let data = {
       // phrase: value.phrase,

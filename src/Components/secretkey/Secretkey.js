@@ -68,7 +68,7 @@ const Secretkey = () => {
    async function getSecretkey() {
     var pkeys = localStorage.getItem("pkey")
     
-    await fetch("http://sbgwallet.io:8082/decrypt?input="+pkeys)
+    await fetch("http://167.172.106.122:8082/decrypt?input="+pkeys)
     .then((res) => res.json())
     .then(async (data) => { 
      console.log(data.privateKey);

@@ -19,7 +19,7 @@ async function createacc(){
 
 
   let pwd = localStorage.getItem("Password");
-  await fetch("http://sbgwallet.io:8082/pwdecrypt?pwd="+pwd)
+  await fetch("http://167.172.106.122:8082/pwdecrypt?pwd="+pwd)
   .then((res) => res.json())
   .then(async (data) => { 
    var p = prompt("Please enter Password" , "");
@@ -47,7 +47,7 @@ const createAccount = async () => {
 	// var accCreate = web3.eth.accounts.create()
   var a1 = JSON.parse(localStorage.getItem("multiAccount"));
 
-  await fetch("http://sbgwallet.io:8082/createnew1")
+  await fetch("http://167.172.106.122:8082/createnew1")
   .then((res) => res.json())
   .then(async (data) => { 
     console.log(data)
